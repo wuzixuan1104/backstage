@@ -21,6 +21,7 @@ import { kubernetesPlugin } from '@backstage/plugin-kubernetes-backend/alpha';
 import { permissionPlugin } from '@backstage/plugin-permission-backend/alpha';
 import { permissionModuleAllowAllPolicy } from '@backstage/plugin-permission-backend-module-allow-all-policy';
 import { scaffolderPlugin } from '@backstage/plugin-scaffolder-backend/alpha';
+import { catalogModuleSystemEntityModel } from '@backstage/plugin-catalog-backend-module-system-entity-model/alpha';
 import { catalogModuleTemplateKind } from '@backstage/plugin-scaffolder-backend/alpha';
 import { searchModuleCatalogCollator } from '@backstage/plugin-search-backend-module-catalog/alpha';
 import { searchModuleExploreCollator } from '@backstage/plugin-search-backend-module-explore/alpha';
@@ -67,6 +68,7 @@ backend.add(techdocsPlugin());
 
 // Catalog
 backend.add(catalogPlugin());
+backend.add(catalogModuleSystemEntityModel());
 backend.add(catalogModuleTemplateKind());
 
 backend.add(scaffolderPlugin());
