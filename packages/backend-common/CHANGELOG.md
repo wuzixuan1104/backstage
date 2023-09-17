@@ -1,5 +1,24 @@
 # @backstage/backend-common
 
+## 0.19.5
+
+### Patch Changes
+
+- 5f1a92b9f19f: Use `DefaultAzureDevOpsCredentialsProvider` to retrieve credentials for Azure DevOps.
+- 05508a9757d2: Minor internal refactor
+- cfc3ca6ce060: Changes needed to support MySQL
+- Updated dependencies
+  - @backstage/backend-app-api@0.5.3
+  - @backstage/config@1.1.0
+  - @backstage/errors@1.2.2
+  - @backstage/integration@1.7.0
+  - @backstage/types@1.1.1
+  - @backstage/backend-plugin-api@0.6.3
+  - @backstage/config-loader@1.5.0
+  - @backstage/backend-dev-utils@0.1.1
+  - @backstage/cli-common@0.1.12
+  - @backstage/integration-aws-node@0.1.6
+
 ## 0.19.5-next.3
 
 ### Patch Changes
